@@ -96,7 +96,7 @@ html{
 #home::before{
     content: "";
     position: absolute;
-    background: url('../food website/bg1.jpg' );
+    background: url('./food website/bg1.jpg' );
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -123,6 +123,9 @@ height: 600px;
    height: 250px;
    width: 30vw;
    background-color: red;
+}
+.box:hover{
+    background-color:green;
 }
 #serve1 .box img{
    
@@ -174,7 +177,7 @@ height: 600px;
 #about::before{
     content: "";
     position: absolute;
-    background: url('../food website/7.jpg' );
+    background: url('7.jpg' );
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -242,7 +245,7 @@ font-size: 1.3rem;
 #contact::before{
     content: "";
     position: absolute;
-    background: url('../food website/6.jpg' );
+    background: url('./6.jpg' );
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -304,4 +307,7 @@ font-size: 1.3rem;
     font-size: 1.8rem;
   margin-top: 50px;
   padding: 10px;
+}
+.conta:hover{
+    background-color: green;
 }
