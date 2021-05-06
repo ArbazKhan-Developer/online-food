@@ -177,7 +177,7 @@ height: 600px;
 #about::before{
     content: "";
     position: absolute;
-    background: url('7.jpg' );
+    background: url('./7.jpg' );
     height: 100%;
     width: 100%;
     z-index: -1;
